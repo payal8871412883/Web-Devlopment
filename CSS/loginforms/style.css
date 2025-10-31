@@ -1,0 +1,30 @@
+#mainbox{
+    border: 1px solid #000;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto ;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px 2px grey;
+}
+#formHeading{
+    text-align: center;
+    color: blueviolet;
+}
+#loginform{
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+}
+
+#formfiled{
+    padding: 10px;
+    .label{
+        border: 1px #000;
+
+    }
+}
+#formfiled label{
+    color: red;
+}
