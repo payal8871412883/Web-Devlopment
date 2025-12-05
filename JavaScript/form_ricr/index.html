@@ -1,0 +1,375 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-light">
+    <header>
+        <div class="container-fuild bg-primary px-3 py-1 d-flex justify-content-between">
+            <div class="d-flex gap-3">
+                <img src="data:image/jpeg;base64,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" alt="img" width="40px" height="40px" class="rounded-circle">
+            
+            <h2 class="text-light">REGISTRATION FORM</h2>
+        </div>
+            <button class="btn btn-info">Student login</button>
+        </div>
+    </header>
+    <main>
+        <div class="container  bg-white border rounded shadow p-3 mt-3">
+
+            <div class="border border-dark rounded p-3  pt-4 my-3 position-relative">
+            <div class="d-grid gap-3">
+                <span class="border px-2 fs-5  position-absolute bg-white text-primary" style="top: -15px;">Personal Information</span>
+            <div class="d-flex align-items-center">
+                <label for="full name" class="form-label  w-25">full name:</label>
+                <input
+                  type="text "
+                  name="name" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            <div class="d-flex align-items-center">
+                <label for="email" class="form-label  w-25">Email:</label>
+                <input
+                  type="email "
+                  name="email" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            <div class="d-flex align-items-center">
+                <label for="full name" class="form-label  w-25">full name:</label>
+                <input
+                  type="text "
+                  name="name" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            <div class="d-flex align-items-center">
+                <label for="email" class="form-label  w-25">Email:</label>
+                <input
+                  type="email "
+                  name="email" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            </div>
+            </div>
+            <!- AASPOTICAATE -->
+            <!-- <div class="border border-dark rounded p-3  pt-4  my-3 position-relative">
+            <div class="d-grid gap-3">
+                <span class="border px-2 fs-5  position-absolute bg-white text-primary" style="top: -15px;">Personal Information</span>
+            <div class="d-flex align-items-center">
+                <label for="full name" class="form-label  w-25">full name:</label>
+                <input
+                  type="text "
+                  name="name" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            <div class="d-flex align-items-center">
+                <label for="email" class="form-label  w-25">Email:</label>
+                <input
+                  type="email "
+                  name="email" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            <div class="d-flex align-items-center">
+                <label for="full name" class="form-label  w-25">full name:</label>
+                <input
+                  type="text "
+                  name="name" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            <div class="d-flex align-items-center">
+                <label for="email" class="form-label  w-25">Email:</label>
+                <input
+                  type="email "
+                  name="email" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            </div>
+            </div>
+            <! checkbo -->
+            <!-- <div class="border border-dark rounded p-3  pt-4 position-relative">
+            <div class="d-grid gap-3">
+                <span class="border px-2 fs-5  position-absolute bg-white text-primary" style="top: -15px;">Personal Information</span>
+            <div class="d-flex align-items-center">
+                <label for="full name" class="form-label  w-25">full name:</label>
+                <input
+                  type="text "
+                  name="name" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            <div class="d-flex align-items-center">
+                <label for="email" class="form-label  w-25">Email:</label>
+                <input
+                  type="email "
+                  name="email" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            <div class="d-flex align-items-center">
+                <label for="full name" class="form-label  w-25">full name:</label>
+                <input
+                  type="text "
+                  name="name" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            <div class="d-flex align-items-center">
+                <label for="email" class="form-label  w-25">Email:</label>
+                <input
+                  type="email "
+                  name="email" 
+                  id="name" 
+                  class="form-control">
+            </div>
+            </div>
+            </div>
+            
+        </div>
+
+    </main>
+     
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+     crossorigin="anonymous">
+    </script>
+    
+</body>
+</html> --> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coaching Registration Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body class="bg-light">
+    <header class="position-sticky top-0 z-3">
+      <div
+        class="container-fluid bg-primary px-3 py-1 d-flex justify-content-between">
+        <div class="d-flex gap-3">
+          <img
+            src="./flower.jpg"
+            alt=""
+            width="50px"
+            height="50px"
+            class="rounded-circle"
+          />
+          <h1 class="text-light">Registration Page</h1>
+        </div>
+        <button class="btn btn-info">Student Login</button>
+      </div>
+    </header>
+
+    <main>
+      <form>
+      <div class="container bg-white border rounded shadow p-3 mt-3">
+        <!-- Presonal Information -->
+        <div class="border border-dark rounded p-3 pt-4 my-3 position-relative">
+          <span
+            class="px-2 fs-5 position-absolute bg-white text-primary"
+            style="top: -15px"
+            >Personal Information</span
+          >
+          <div class="d-grid gap-3">
+            <div class="d-flex align-items-center">
+              <label for="fullName" class="form-label w-25"
+                >Full Name: <sup class="text-danger">*</sup>
+              </label>
+              <input
+                type="text"
+                name="fullName"
+                id="fullName"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="d-flex align-items-center">
+              <label for="email" class="form-label w-25"
+                >Email Address: <sup class="text-danger">*</sup>
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="d-flex align-items-center">
+              <label for="mobile" class="form-label w-25"
+                >Mobile no : <sup class="text-danger">*</sup>
+              </label>
+              <input
+                type="number"
+                name="mobile"
+                id="mobile"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="d-flex align-items-center">
+              <label for="dob" class="form-label w-25"
+                >D.O.B. : <sup class="text-danger">*</sup>
+              </label>
+              <input
+                type="date"
+                name="dob"
+                id="dob"
+                class="form-control"
+                required
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic Details -->
+        <div class="border border-dark rounded p-3 pt-4 my-3 position-relative">
+          <span
+            class="px-2 fs-5 position-absolute bg-white text-primary"
+            style="top: -15px"
+            >Academic Details</span
+          >
+          <div class="d-grid gap-3">
+            <div class="d-flex align-items-center">
+              <label for="qualification" class="form-label w-25"
+                >Qualification: <sup class="text-danger">*</sup></label
+              >
+              <select
+                name="qualification"
+                id="qualification"
+                class="form-select"
+              >
+                <option value="">--Select Qualification</option>
+                <option value="10">Secondary Schooling</option>
+                <option value="12">Senior Secondary Schooling</option>
+                <option value="UG">Graduation</option>
+                <option value="PG">Post Graduation</option>
+                <option value="PHD">P.hd</option>
+              </select>
+            </div>
+            <div class="d-flex align-items-center">
+              <label for="score" class="form-label w-25"
+                >Percentage / Grade : <sup class="text-danger">*</sup>
+              </label>
+              <input
+                type="text"
+                name="score"
+                id="score"
+                class="form-control"
+                required
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Course Information -->
+        <div class="border border-dark rounded p-3 pt-4 my-3 position-relative">
+          <span
+            class="px-2 fs-5 position-absolute bg-white text-primary"
+            style="top: -15px"
+            >Course Information</span
+          >
+          <div class="d-grid gap-3">
+            <div class="d-flex align-items-center">
+              <label for="course" class="form-label w-25"
+                >Available Courses: <sup class="text-danger">*</sup></label
+              >
+              <select name="course" id="course" class="form-select">
+                <option value="">--Select Course</option>
+                <option value="FSD">Full Stack Development</option>
+                <option value="DS">Data Science</option>
+                <option value="DA">Data Analytics</option>
+                <option value="J-DSA">Java DSA</option>
+                <option value="P-DSA">Python DSA</option>
+              </select>
+            </div>
+            <div class="d-flex align-items-center">
+              <label for="batch" class="form-label w-25"
+                >Prefered Batch : <sup class="text-danger">*</sup>
+              </label>
+              <div class="d-flex gap-3">
+                <div class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    name="batch"
+                    id="morning"
+                    value="morning"
+                    class="form-check-input"
+                    style="accent-color: red !important;"
+                  />
+                  <span>Morning</span>
+                </div>
+                <div class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    name="batch"
+                    id="afternoon"
+                    value="afternoon"
+                    class="form-check-input"
+                  />
+                  <span>Afternoon</span>
+                </div>
+                <div class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    name="batch"
+                    id="evening"
+                    value="evening"
+                    class="form-check-input"
+                  />
+                  <span>Evening</span>
+                </div>
+                <div class="d-flex gap-2">
+                  <input
+                    type="checkbox"
+                    name="batch"
+                    id="weekends"
+                    value="weekends"
+                    class="form-check-input"
+                  />
+                  <span>Weekends</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="" class="btn btn-success" onclick="submit()">Sumbit</button>
+      </div>
+      </form>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
