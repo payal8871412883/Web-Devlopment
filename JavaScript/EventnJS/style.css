@@ -23,3 +23,99 @@ button{
 .on{
     background-color: yellow;
 }
+
+#Rainbowblub{
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: fit-content;
+}
+.color{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: default;
+}
+.c1{
+    background-color: violet;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: default;
+}
+
+.c2{
+    background-color: aqua;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: default;
+}
+.c3{
+    background-color: rgb(46, 50, 50);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: default;
+}
+.c4{
+    background-color: burlywood;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: default;
+}
+.c5{
+    background-color: rgb(197, 139, 62);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: default;
+}
+.c6{
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: default;
+}
+.c7{
+    background-color: pink;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: default;
+}
+
