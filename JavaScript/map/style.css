@@ -1,0 +1,302 @@
+#jammuandkashmir{
+  position: absolute;
+   top: 60px;
+  left: 140px;
+  visibility: hidden;
+  cursor: pointer;
+  font-size: small;
+  z-index: 9999 !important;
+}
+
+#laddakh{
+  position: absolute;
+ top: 30px;
+  left: 150px;
+  visibility: hidden;
+  cursor: pointer;
+  font-size: small;
+  z-index: 9999 !important;
+}
+
+#himachalpradesh{
+  position: absolute;
+  top: 100px;
+  left: 170px;
+  visibility: hidden;
+  font-size: small;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+#punjab{
+  position: absolute;
+   top: 120px;
+  left: 150px;
+  visibility: hidden;
+  font-size: small;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#uttrakhand{
+  position: absolute;
+   top: 140px;
+  left: 200px;
+  visibility: hidden;
+  font-size: small;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#haryana{
+  position: absolute;
+  top: 150px;
+  left: 155px;
+  visibility: hidden;
+  font-size: small;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#delhi{
+  position: absolute;
+ top: 165px;
+  left: 170px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+
+#rajasthan{
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#uttarpradesh {
+  position: absolute;
+  top: 185px;
+  left: 210px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#madhyapradesh{
+  position: absolute;
+  top: 260px;
+  left: 190px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+#gujrat{
+  position: absolute;
+  top: 250px;
+  left: 70px;
+  visibility: hidden;
+  font-size: small;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+#bihar{
+  position: absolute;
+   top: 220px;
+  left: 300px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+#sikkim{
+  position: absolute;
+   top: 175px;
+  left: 335px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#westBengal{
+  position: absolute;
+  top: 260px;
+  left: 330px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#jharkhand{
+  position: absolute;
+  top: 250px;
+  left: 290px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+/* #bangladesh{
+  position: absolute;
+  top: 600px;
+  left: 790px;
+  visibility: hidden;
+} */
+
+#assam{
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#meghalaya{
+  position: absolute;
+ top: 215px;
+  left: 380px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#arunachalPradesh{
+  position: absolute;
+  top: 160px;
+  left: 420px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#nagaland{
+  position: absolute;
+ top: 200px;
+  left: 430px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#manipur{
+  position: absolute;
+  top: 230px;
+  left: 420px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+#mizoram{
+  position: absolute;
+   top: 260px;
+  left: 400px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#chhattisgarh{
+  position: absolute;
+  top: 290px;
+  left: 230px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#odisa{
+  position: absolute;
+   top: 300px;
+  left: 270px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#maharashtra{
+  position: absolute;
+   top: 320px;
+  left: 140px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+#tripura{
+  position: absolute;
+  top: 250px;
+  left: 385px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#karnatak{
+  position: absolute;
+  top: 390px;
+  left: 140px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+#andhrapradesh{
+  position: absolute;
+ top: 400px;
+  left: 180px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#tamilNadu{
+  position: absolute;
+  top: 480px;
+  left: 170px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+#kerela{
+  position: absolute;
+   top: 490px;
+  left: 140px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+#goa{
+  position: absolute;
+   top: 462px;
+  left: 128px;
+  font-size: small;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 9999 !important;
+}
+
+
+ 
